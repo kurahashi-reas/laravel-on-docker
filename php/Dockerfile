@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y \
    iputils-ping \
    git
 
+RUN curl -sS https://getcomposer.org/installer | php
+RUN cp composer.phar /usr/local/bin/composer
+
 # カスタム設定を配置
 COPY ./conf/php.ini /usr/local/etc/php/conf.d/php.ini
 
