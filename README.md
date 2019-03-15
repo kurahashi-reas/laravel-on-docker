@@ -14,10 +14,13 @@
 - `cd html && composer install` を実行
 - `http://localhost:8080` でTOPページが開くことを確認
 
+# ログ
+- 'logs' ディレクトリ配下に吐き出されます
+
 # 環境
 
 - Laravel5.7
-- Nginx
-- PHP-fpm
+- Nginx1.15
+- PHP-fpm7.3
 - MySQL5.7
 - Redis4
