@@ -12,6 +12,7 @@
 - `docker-compose up -d --build` を実行
 - `cp html/.env.example html/.env` を実行
 - `cd html && composer install` を実行
+- `html/bootstrap/cache` および `html/storage` にPHPが書き込める権限を付与する
 - `http://localhost:8080` でTOPページが開くことを確認
 
 # ログ
