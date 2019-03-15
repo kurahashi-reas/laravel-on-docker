@@ -1,5 +1,12 @@
 FROM php:7-fpm
 
+RUN apt-get update && apt-get install -y \
+   vim \
+   zip \
+   unzip \
+   iputils-ping \
+   git
+
 # カスタム設定を配置
 COPY ./conf/php.ini /usr/local/etc/php/conf.d/php.ini
 
