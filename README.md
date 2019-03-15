@@ -10,10 +10,8 @@
 - 任意のディレクトリに `git clone` します
 - `docker-compose.yml` が存在するディレクトリに移動
 - `docker-compose up -d --build` を実行
-- `cp html/.env.example html/.env` を実行
-- `cd html && composer install` を実行
-- `html/bootstrap/cache` および `html/storage` にPHPが書き込める権限を付与する
-- `http://localhost:8080` でTOPページが開くことを確認
+- `./initialize.sh` を実行
+- `http://localhost` でTOPページが開くことを確認
 
 # ログ
 - `logs` ディレクトリ配下に吐き出されます
